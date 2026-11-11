@@ -2,7 +2,7 @@
 
 ## Executed environment
 
-Windows, CPython 3.13.6, uv 0.13.5. The suite was installed from the frozen lockfile into a new `.venv-verify` with **system site packages disabled**. The clean install used the ADK and Gradio extras; actual Hugging Face validation used the embeddings extra in the primary environment. Python 3.11–3.13 are declared in the project range; only 3.13 was executed here. Linux CI is defined but was not run on a hosted runner during this session.
+Windows, CPython 3.13.6, uv 0.13.5. The suite was installed from the frozen lockfile into a new `.venv-verify` with **system site packages disabled**. The clean install used the ADK and Gradio extras; actual Hugging Face validation used the embeddings extra in the primary environment. Python 3.11–3.13 are declared in the project range; the local run exercised 3.13. After publication, the hosted Ubuntu [verification workflow](https://github.com/Swaroopfullstack/agentic-ai-portfolio/actions/runs/43005050770) and [secret-scanning workflow](https://github.com/Swaroopfullstack/agentic-ai-portfolio/actions/runs/43005050464) both completed successfully.
 
 Key tested versions: LangChain 1.4.10, LangGraph 1.2.20, Chroma 1.5.9, FastAPI 0.162.4, scikit-learn 1.9.1, MCP 1.30.0, Google ADK 2.14.0 and A2A SDK 1.3.0. The lockfile records all dependencies.
 
@@ -15,6 +15,7 @@ Key tested versions: LangChain 1.4.10, LangGraph 1.2.20, Chroma 1.5.9, FastAPI 0
 | Focused SSE graph streaming after context fix | **1 passed**; also included in final full suite | [JUnit](streaming-tests.xml) |
 | Ruff over source, tests, scripts and project launchers | All checks passed | `uv run ruff check src tests scripts projects` |
 | Editor diagnostics | No errors found | Workspace Problems check |
+| Hosted GitHub Actions | Verification and secret scanning both passed on initial publication | Workflow links above |
 | Public data acquisition | NIST PDF + UCI Iris downloaded; diabetes exported from sklearn | [Provenance](../assets/public/PROVENANCE.json) |
 | Real browser demo | Uploaded public fixtures, routed requests, retained preference, trained classifier comparison and rendered/download controls | [Actual screenshot](insightforge-demo.png) |
 
@@ -69,7 +70,7 @@ The public PDF exposed a Windows subprocess encoding problem; parsing now uses e
 ## Limits and remaining release checks
 
 - **No hosted LLM inference was executed.** Actual model credentials, entitlement, tool-call behavior, structured-output behavior and sampling compatibility require a controlled live run for each enabled model. The app never silently falls back from live failure to demo.
-- **No Docker build, cloud deployment, hosted CI, load test or backup/restore drill was executed.** Docker was unavailable locally. Use the [deployment contract](../docs/DEPLOYMENT.md) before a real release.
+- **No Docker build, cloud deployment, load test or backup/restore drill was executed.** Docker was unavailable locally. Hosted CI subsequently passed after GitHub publication. Use the [deployment contract](../docs/DEPLOYMENT.md) before a real release.
 - The supported app shape is one API instance/worker with durable local storage. This is not horizontal scale or high availability certification.
 - ADK emits six deprecation warnings for the course's SequentialAgent/ParallelAgent/LoopAgent patterns in the locked 2.14 SDK. Their actual workflows pass; migration to the newer Workflow API requires deliberate future work.
 - Course-specific Gmail OAuth, enterprise support/refund/booking/expense workflows, RemoteA2aAgent proxy, ADK MCPToolset/YAML, PostgreSQL deployment and tracing exporters are explicitly marked exercises/extensions in the [281-objective matrix](../docs/CONCEPT_COVERAGE.md). Installed packages or documentation do not count as successful external integrations.
@@ -77,3 +78,9 @@ The public PDF exposed a Windows subprocess encoding problem; parsing now uses e
 ## Reproduction order
 
 Follow [the root quickstart](../README.md), run the full tests, run the optional embeddings test after installing/warming that model, then run the public evaluation. For a live release, configure production credentials/settings and execute the environment-specific checks documented above. Keep each release's lockfile, test report and experiment data together.
+
+## Publication and credential checks
+
+Published [portfolio repository](https://github.com/Swaroopfullstack/agentic-ai-portfolio). The initial 99-file remote Git tree was fetched and compared with the local scanned tree: they matched exactly. Gitleaks 8.30.1 checked staged files and committed history with no credential findings. One reviewed false positive for a literal project-folder label has an explicit inline annotation in the course-map script. The hosted secret scan passed too.
+
+Only blank/placeholder environment templates are tracked. Private environment files, runtime databases/uploads, virtual environments and key/token files are ignored. Machine hostnames were removed from public JUnit metadata. Actual passwords, provider keys and stored GitHub credentials were not changed by this publication. See [private environment setup](../docs/ENV_SETUP.md).

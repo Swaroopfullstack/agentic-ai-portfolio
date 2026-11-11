@@ -24,12 +24,12 @@ Use screenshots of actual runs. Never add client names, real users, invented tra
 >
 > Engineering work includes owner isolation, reviewer authorization, idempotent exports, persisted checkpoints, bounded training, provider failure controls, and integration tests. My repository distinguishes verified local behavior from live-provider and deployment checks.
 >
-> Repository: ADD_YOUR_GITHUB_LINK
+> Repository: https://github.com/Swaroopfullstack/agentic-ai-portfolio
 > Demo: ADD_YOUR_RECORDING_LINK
 >
 > #AgenticAI #LangGraph #LangChain #FastAPI #Python #MachineLearning
 
-Replace the placeholders only after publishing your repository/video. If the demo runs offline, state that plainly in the post or recording. Add real test counts and metrics from the release's validation report instead of copying numbers that may go stale.
+The repository link is published. Replace the video placeholder after publishing your recording. If the demo runs offline, state that plainly in the post or recording. Add real test counts and metrics from the release's validation report instead of copying numbers that may go stale.
 
 ## Resume / project bullets
 
