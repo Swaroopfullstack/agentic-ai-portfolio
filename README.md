@@ -2,6 +2,22 @@
 
 Build and explain an end-to-end agentic application, then isolate each advanced pattern in its own project. Gemini is the configured default through LangChain `init_chat_model`. OpenAI and Anthropic use the same factory. Python, uv, LangChain, LangGraph, FastAPI, Streamlit, Chroma, Hugging Face, scikit-learn, MCP, ADK and A2A are integrated here.
 
+## Standalone project repositories
+
+Each project now has a dedicated repository with its own source, README, focused demo, UI entry point, frozen dependencies, tests and Docker configuration. Open a project directly:
+
+| Project | Dedicated repository | Main focus |
+|---|---|---|
+| InsightForge | [insightforge-multi-agent-analytics](https://github.com/Swaroopfullstack/insightforge-multi-agent-analytics) | Supervisor, data analysis, RAG, ML and memory |
+| EvidenceDesk | [evidencedesk-agentic-rag](https://github.com/Swaroopfullstack/evidencedesk-agentic-rag) | Seven retrieval strategies and document citations |
+| ReviewOps | [reviewops-human-in-the-loop](https://github.com/Swaroopfullstack/reviewops-human-in-the-loop) | Durable approval, authorization and idempotent exports |
+| ResearchSwarm | [researchswarm-langgraph-agents](https://github.com/Swaroopfullstack/researchswarm-langgraph-agents) | Parallel researchers and bounded writer/critic review |
+| ProtocolBridge | [protocolbridge-mcp-a2a](https://github.com/Swaroopfullstack/protocolbridge-mcp-a2a) | Actual MCP and A2A clients, tools and services |
+| TripWise ADK | [tripwise-google-adk](https://github.com/Swaroopfullstack/tripwise-google-adk) | ADK workflows, tools, callbacks and durable sessions |
+| Foundation Studio | [foundation-studio-langchain](https://github.com/Swaroopfullstack/foundation-studio-langchain) | LCEL, prompts, structured output, streaming and middleware |
+
+The original repository remains the combined learning hub. The standalone repositories vendor the tested common runtime and can be cloned independently.
+
 ## Start here
 
 Run these commands **from this repository root**, in PowerShell or a terminal with uv installed:
