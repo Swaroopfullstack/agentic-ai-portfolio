@@ -1,0 +1,9 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "backend": "huggingface",
+  "dimensions": 384,
+  "query": "An animal enjoys outdoor play",
+  "rank_1_source": "animals.txt",
+  "cosine_similarity": 0.5952756404876709,
+  "inference": "actual local model execution, no hosted LLM call"
+}

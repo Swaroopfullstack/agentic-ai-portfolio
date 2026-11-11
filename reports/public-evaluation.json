@@ -1,0 +1,188 @@
+{
+  "timestamp_utc": "2026-11-11T09:27:21.286323+00:00",
+  "run_mode": "demo",
+  "embedding_backend": "hashing",
+  "model": "gemini-3.8-flash",
+  "scope": "Public fixture smoke experiments, not broad benchmarks or production certification",
+  "retrieval": {
+    "chunks": 164,
+    "pages": 48,
+    "cases": [
+      {
+        "query": "What are Govern, Map, Measure and Manage in AI risk management?",
+        "hits": 4,
+        "expected_term_recall": 1.0,
+        "elapsed_seconds": 0.096,
+        "pages": [
+          5,
+          8,
+          25,
+          30
+        ],
+        "valid_ids": true
+      },
+      {
+        "query": "What characteristics make AI systems trustworthy?",
+        "hits": 4,
+        "expected_term_recall": 1.0,
+        "elapsed_seconds": 0.089,
+        "pages": [
+          5,
+          17
+        ],
+        "valid_ids": true
+      },
+      {
+        "query": "How should organizations manage AI risks?",
+        "hits": 4,
+        "expected_term_recall": 1.0,
+        "elapsed_seconds": 0.089,
+        "pages": [
+          37,
+          47
+        ],
+        "valid_ids": true
+      }
+    ],
+    "metric_limit": "Lexical expected-term smoke check, not expert relevance or faithfulness evaluation"
+  },
+  "ml": {
+    "uci_iris": {
+      "target": "species",
+      "problem_type": "classification",
+      "selection_metric": "f1_weighted",
+      "selection_method": "3-fold cross-validation on training data only",
+      "leaderboard": [
+        {
+          "model": "Logistic Regression",
+          "validation_mean": 0.9582294125627459,
+          "validation_std": 0.011832406961320407
+        },
+        {
+          "model": "KNN",
+          "validation_mean": 0.9499876543209878,
+          "validation_std": 0.03534661258000493
+        },
+        {
+          "model": "Random Forest",
+          "validation_mean": 0.949734970223476,
+          "validation_std": 0.020650887022464145
+        },
+        {
+          "model": "Gradient Boosting",
+          "validation_mean": 0.949734970223476,
+          "validation_std": 0.020650887022464145
+        },
+        {
+          "model": "Decision Tree",
+          "validation_mean": 0.9415169583502917,
+          "validation_std": 0.031277416788802755
+        }
+      ],
+      "winner": "Logistic Regression",
+      "held_out_test_metrics": {
+        "accuracy": 0.9333333333333333,
+        "f1_weighted": 0.9333333333333333
+      },
+      "baseline_validation_mean": 0.15943396226415094,
+      "train_rows": 120,
+      "test_rows": 30,
+      "dropped_columns": [],
+      "features": [
+        "sepal_length",
+        "sepal_width",
+        "petal_length",
+        "petal_width"
+      ],
+      "random_seed": 42,
+      "limitations": [
+        "Single bounded split/CV experiment; not deployment or general performance certification",
+        "Possible semantic leakage columns and temporal dependencies require domain review"
+      ],
+      "target_inference": {
+        "target": "species",
+        "problem_type": "classification",
+        "confidence": "high",
+        "reason": "A conventional target-column name was found",
+        "unique_target_values": 3,
+        "alternatives": []
+      },
+      "elapsed_seconds": 17.254
+    },
+    "sklearn_diabetes": {
+      "target": "disease_progression",
+      "problem_type": "regression",
+      "selection_metric": "r2",
+      "selection_method": "3-fold cross-validation on training data only",
+      "leaderboard": [
+        {
+          "model": "Ridge",
+          "validation_mean": 0.48347526012753733,
+          "validation_std": 0.025745939534888948
+        },
+        {
+          "model": "Linear Regression",
+          "validation_mean": 0.482600353259866,
+          "validation_std": 0.024701250563765237
+        },
+        {
+          "model": "Random Forest",
+          "validation_mean": 0.4601536927994796,
+          "validation_std": 0.01609438963499599
+        },
+        {
+          "model": "Gradient Boosting",
+          "validation_mean": 0.4218507146348877,
+          "validation_std": 0.02161142088077066
+        },
+        {
+          "model": "KNN",
+          "validation_mean": 0.30163904030735145,
+          "validation_std": 0.08372484887459107
+        },
+        {
+          "model": "Decision Tree",
+          "validation_mean": -0.11318353424506677,
+          "validation_std": 0.15756565210715154
+        }
+      ],
+      "winner": "Ridge",
+      "held_out_test_metrics": {
+        "r2": 0.45414652081773277,
+        "mae": 42.81199941839658,
+        "rmse": 53.77745405988833
+      },
+      "baseline_validation_mean": -0.015086070221237202,
+      "train_rows": 353,
+      "test_rows": 89,
+      "dropped_columns": [],
+      "features": [
+        "age",
+        "sex",
+        "bmi",
+        "bp",
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "random_seed": 42,
+      "limitations": [
+        "Single bounded split/CV experiment; not deployment or general performance certification",
+        "Possible semantic leakage columns and temporal dependencies require domain review"
+      ],
+      "target_inference": {
+        "target": "disease_progression",
+        "problem_type": "regression",
+        "confidence": "high",
+        "reason": "A conventional target-column name was found",
+        "unique_target_values": 214,
+        "alternatives": []
+      },
+      "elapsed_seconds": 15.703
+    }
+  },
+  "elapsed_seconds": 39.429
+}

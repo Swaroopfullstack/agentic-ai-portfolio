@@ -1,0 +1,3749 @@
+{
+  "source": "Two user-supplied full-course notes audits",
+  "objectives": 281,
+  "status_counts": {
+    "Implementation example": 100,
+    "Guided practice / partial pattern": 148,
+    "External integration exercise": 12,
+    "Course-domain extension": 21
+  },
+  "interpretation": "Every objective is accounted for; this is not a claim that every course-specific application/integration is implemented",
+  "items": [
+    {
+      "id": "original-001",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Environment, configuration, and package structure",
+      "concept": "Project interpreter, virtual environment, imports, and dependency installation",
+      "notes_sections": [
+        "2.1"
+      ],
+      "project": "07-foundation-studio",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/config.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-002",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Environment, configuration, and package structure",
+      "concept": "Environment variables, provider credentials, and configuration validation",
+      "notes_sections": [
+        "2.2",
+        "2.4"
+      ],
+      "project": "07-foundation-studio",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/config.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-003",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Environment, configuration, and package structure",
+      "concept": "Functions, dictionaries, type hints, Pydantic, generators, and async Python",
+      "notes_sections": [
+        "2.3"
+      ],
+      "project": "07-foundation-studio",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-004",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Environment, configuration, and package structure",
+      "concept": "load_dotenv precedence, uv init/add/sync, src packages, and editable installation",
+      "notes_sections": [
+        "2.5"
+      ],
+      "project": "07-foundation-studio",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/config.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-005",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Environment, configuration, and package structure",
+      "concept": "Typed settings, SecretStr, lru_cache, and process-local configuration",
+      "notes_sections": [
+        "25.13"
+      ],
+      "project": "07-foundation-studio",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/config.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-006",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Direct model calls, conversation, and Gradio",
+      "concept": "Construct a provider client and inspect a chat-completion response",
+      "notes_sections": [
+        "3.1"
+      ],
+      "project": "07-foundation-studio",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-007",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Direct model calls, conversation, and Gradio",
+      "concept": "System, user, and assistant roles and response content",
+      "notes_sections": [
+        "3.2"
+      ],
+      "project": "07-foundation-studio",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/models.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-008",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Direct model calls, conversation, and Gradio",
+      "concept": "Tokens, temperature, and generation limits",
+      "notes_sections": [
+        "3.3"
+      ],
+      "project": "07-foundation-studio",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/models.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-009",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Direct model calls, conversation, and Gradio",
+      "concept": "Stateless calls versus an explicitly supplied conversation message list",
+      "notes_sections": [
+        "3.4"
+      ],
+      "project": "07-foundation-studio",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/models.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-010",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Direct model calls, conversation, and Gradio",
+      "concept": "Chat helper functions and a Gradio chat interface",
+      "notes_sections": [
+        "3.5"
+      ],
+      "project": "07-foundation-studio",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/gradio_app.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-011",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Direct model calls, conversation, and Gradio",
+      "concept": "Convert Gradio message history into the provider request format",
+      "notes_sections": [
+        "3.6"
+      ],
+      "project": "07-foundation-studio",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/gradio_app.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-012",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Streamlit chat and financial-analysis UI",
+      "concept": "Script reruns, session_state initialization, chat_input, and chat_message",
+      "notes_sections": [
+        "4.1",
+        "4.2"
+      ],
+      "project": "01-insightforge",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/ui.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-013",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Streamlit chat and financial-analysis UI",
+      "concept": "Run and stop the local UI server; invoke only for a new input",
+      "notes_sections": [
+        "4.1",
+        "4.2"
+      ],
+      "project": "01-insightforge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-014",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Streamlit chat and financial-analysis UI",
+      "concept": "UI history versus execution checkpoints versus business records",
+      "notes_sections": [
+        "4.3"
+      ],
+      "project": "01-insightforge",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/ui.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-015",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Streamlit chat and financial-analysis UI",
+      "concept": "Replace Thinking text with st.empty; Boolean button results and disabled state",
+      "notes_sections": [
+        "4.4"
+      ],
+      "project": "01-insightforge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-016",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Streamlit chat and financial-analysis UI",
+      "concept": "Financial inputs, prompt construction, chain testing, and sidebar-driven analysis",
+      "notes_sections": [
+        "5.5"
+      ],
+      "project": "01-insightforge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-017",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangChain models, prompts, parsers, and LCEL",
+      "concept": "ChatOpenAI, init_chat_model, message classes, and Azure deployment configuration",
+      "notes_sections": [
+        "5.1"
+      ],
+      "project": "07-foundation-studio",
+      "status": "External integration exercise",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-018",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangChain models, prompts, parsers, and LCEL",
+      "concept": "invoke, ainvoke, batch, and stream execution interfaces",
+      "notes_sections": [
+        "5.2"
+      ],
+      "project": "07-foundation-studio",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-019",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangChain models, prompts, parsers, and LCEL",
+      "concept": "ChatPromptTemplate variables and prompt-model-parser pipe composition",
+      "notes_sections": [
+        "5.3"
+      ],
+      "project": "07-foundation-studio",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-020",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangChain models, prompts, parsers, and LCEL",
+      "concept": "String parsing, JSON parsing, nested Pydantic validation, and malformed output",
+      "notes_sections": [
+        "5.4"
+      ],
+      "project": "07-foundation-studio",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-021",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangChain models, prompts, parsers, and LCEL",
+      "concept": "ChatAnthropic and provider-specific capabilities",
+      "notes_sections": [
+        "5.6"
+      ],
+      "project": "07-foundation-studio",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-022",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangChain models, prompts, parsers, and LCEL",
+      "concept": "PromptTemplate versus ChatPromptTemplate; partial variables and format instructions",
+      "notes_sections": [
+        "5.6"
+      ],
+      "project": "07-foundation-studio",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/labs.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-023",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangChain models, prompts, parsers, and LCEL",
+      "concept": "PydanticOutputParser parses and validates the model's text",
+      "notes_sections": [
+        "5.6"
+      ],
+      "project": "07-foundation-studio",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/foundations.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-024",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangChain models, prompts, parsers, and LCEL",
+      "concept": "RunnableLambda transforms and RunnableParallel named branches",
+      "notes_sections": [
+        "5.7"
+      ],
+      "project": "07-foundation-studio",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/labs.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-025",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangChain models, prompts, parsers, and LCEL",
+      "concept": "Provider-executed tools versus client-executed tool calls and content blocks",
+      "notes_sections": [
+        "5.8"
+      ],
+      "project": "07-foundation-studio",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-026",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Structured agent output",
+      "concept": "Turn an unstructured answer into a typed application contract",
+      "notes_sections": [
+        "6.1"
+      ],
+      "project": "07-foundation-studio",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/foundations.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-027",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Structured agent output",
+      "concept": "ToolStrategy versus ProviderStrategy and supported model capabilities",
+      "notes_sections": [
+        "6.2"
+      ],
+      "project": "07-foundation-studio",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-028",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Structured agent output",
+      "concept": "structured_response versus conversational messages",
+      "notes_sections": [
+        "6.2"
+      ],
+      "project": "07-foundation-studio",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-029",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Structured agent output",
+      "concept": "Schema correctness versus factual correctness versus completed business actions",
+      "notes_sections": [
+        "6.3"
+      ],
+      "project": "07-foundation-studio",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-030",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Tools, ReAct, SQL, and short-term memory",
+      "concept": "Reason/action/observation agent loop and tool descriptions",
+      "notes_sections": [
+        "7.1",
+        "7.3"
+      ],
+      "project": "01-insightforge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-031",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Tools, ReAct, SQL, and short-term memory",
+      "concept": "bind_tools exposes schemas; runtime execution and ToolMessage supply observations",
+      "notes_sections": [
+        "7.2"
+      ],
+      "project": "01-insightforge",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/labs.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-032",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Tools, ReAct, SQL, and short-term memory",
+      "concept": "create_agent configuration and repeated tool selection",
+      "notes_sections": [
+        "7.3"
+      ],
+      "project": "01-insightforge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-033",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Tools, ReAct, SQL, and short-term memory",
+      "concept": "Weather HTTP tools, filesystem read/write, and custom/prebuilt Tavily search",
+      "notes_sections": [
+        "7.4"
+      ],
+      "project": "01-insightforge",
+      "status": "External integration exercise",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-034",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Tools, ReAct, SQL, and short-term memory",
+      "concept": "Natural-language SQL: list tables, inspect schema, query, and interpret rows",
+      "notes_sections": [
+        "7.5"
+      ],
+      "project": "01-insightforge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-035",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Tools, ReAct, SQL, and short-term memory",
+      "concept": "SQL permissions and ownership checks at the actual data boundary",
+      "notes_sections": [
+        "7.5",
+        "18.9"
+      ],
+      "project": "01-insightforge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-036",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Tools, ReAct, SQL, and short-term memory",
+      "concept": "Explicit @tool args_schema with Pydantic argument validation",
+      "notes_sections": [
+        "7.6"
+      ],
+      "project": "01-insightforge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-037",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Tools, ReAct, SQL, and short-term memory",
+      "concept": "thread_id continuity and independent conversation identities",
+      "notes_sections": [
+        "9.1"
+      ],
+      "project": "01-insightforge",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/ui.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-038",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Tools, ReAct, SQL, and short-term memory",
+      "concept": "InMemorySaver, SQLite checkpoints, PostgreSQL checkpoints, and connection lifetime",
+      "notes_sections": [
+        "9.2"
+      ],
+      "project": "01-insightforge",
+      "status": "External integration exercise",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-039",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Tools, ReAct, SQL, and short-term memory",
+      "concept": "Short-term messages versus durable user knowledge",
+      "notes_sections": [
+        "9.3"
+      ],
+      "project": "01-insightforge",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/storage.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-040",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangChain middleware and guardrails",
+      "concept": "Middleware placement around the model/tool/agent lifecycle",
+      "notes_sections": [
+        "8.1",
+        "8.7"
+      ],
+      "project": "03-reviewops",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-041",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangChain middleware and guardrails",
+      "concept": "Model wrappers, handler return values, and call logging",
+      "notes_sections": [
+        "8.2"
+      ],
+      "project": "03-reviewops",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/foundations.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-042",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangChain middleware and guardrails",
+      "concept": "Static model choice versus dynamic model routing",
+      "notes_sections": [
+        "8.3"
+      ],
+      "project": "03-reviewops",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-043",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangChain middleware and guardrails",
+      "concept": "Static prompts, dynamic prompts, trusted context, and role-aware instructions",
+      "notes_sections": [
+        "8.4"
+      ],
+      "project": "03-reviewops",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-044",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangChain middleware and guardrails",
+      "concept": "wrap_tool_call errors and valid tool observations with matching call IDs",
+      "notes_sections": [
+        "8.5"
+      ],
+      "project": "03-reviewops",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-045",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangChain middleware and guardrails",
+      "concept": "PII redact, mask, hash, and block strategies; input/output/tool-result targets",
+      "notes_sections": [
+        "8.6"
+      ],
+      "project": "03-reviewops",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-046",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangChain middleware and guardrails",
+      "concept": "Before/after hooks versus wrappers; sync versus async hooks",
+      "notes_sections": [
+        "8.7"
+      ],
+      "project": "03-reviewops",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-047",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangChain middleware and guardrails",
+      "concept": "Model failure, tool failure, retries, and tracing the correct execution call",
+      "notes_sections": [
+        "8.8"
+      ],
+      "project": "03-reviewops",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-048",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangChain middleware and guardrails",
+      "concept": "HumanInTheLoopMiddleware composed with custom middleware",
+      "notes_sections": [
+        "12.3",
+        "12.6"
+      ],
+      "project": "03-reviewops",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/foundations.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-049",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Memory growth and compression",
+      "concept": "Conversation growth, token budget, cost, latency, and bounded context",
+      "notes_sections": [
+        "9.4"
+      ],
+      "project": "01-insightforge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-050",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Memory growth and compression",
+      "concept": "Trim messages while preserving valid message/tool-call relationships",
+      "notes_sections": [
+        "9.4"
+      ],
+      "project": "01-insightforge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-051",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Memory growth and compression",
+      "concept": "SummarizationMiddleware triggers and recent-message retention",
+      "notes_sections": [
+        "9.5"
+      ],
+      "project": "01-insightforge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-052",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Memory growth and compression",
+      "concept": "Summary loss, missing detail, and memory-growth/trim/summary comparisons",
+      "notes_sections": [
+        "9.5"
+      ],
+      "project": "01-insightforge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-053",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Retrieval and the employee-handbook corpus",
+      "concept": "RAG ingestion versus query-time retrieval and answer generation",
+      "notes_sections": [
+        "10.1"
+      ],
+      "project": "02-evidencedesk",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/retrieval.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-054",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Retrieval and the employee-handbook corpus",
+      "concept": "PDF loading, Document text, page/source metadata, and provenance",
+      "notes_sections": [
+        "10.2"
+      ],
+      "project": "02-evidencedesk",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/retrieval.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-055",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Retrieval and the employee-handbook corpus",
+      "concept": "Recursive chunk splitting, overlap, and context boundaries",
+      "notes_sections": [
+        "10.2"
+      ],
+      "project": "02-evidencedesk",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/retrieval.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-056",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Retrieval and the employee-handbook corpus",
+      "concept": "Semantic embeddings and cosine similarity versus the offline lexical demonstration",
+      "notes_sections": [
+        "10.3"
+      ],
+      "project": "02-evidencedesk",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/retrieval.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-057",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Retrieval and the employee-handbook corpus",
+      "concept": "Chroma index creation, persistence, stale indexes, and embedding consistency",
+      "notes_sections": [
+        "10.3"
+      ],
+      "project": "02-evidencedesk",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/retrieval.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-058",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Retrieval and the employee-handbook corpus",
+      "concept": "Similarity search, score direction, top-k, MMR diversity, and batch retrieval",
+      "notes_sections": [
+        "10.4"
+      ],
+      "project": "02-evidencedesk",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/retrieval.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-059",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Retrieval and the employee-handbook corpus",
+      "concept": "Retrieval as an optional agent tool versus always-retrieve middleware",
+      "notes_sections": [
+        "10.5"
+      ],
+      "project": "02-evidencedesk",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-060",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Retrieval and the employee-handbook corpus",
+      "concept": "Grounded prompting, missing evidence, citations, and explicit source return",
+      "notes_sections": [
+        "10.6"
+      ],
+      "project": "02-evidencedesk",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/retrieval.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-061",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Retrieval and the employee-handbook corpus",
+      "concept": "The actual handbook's policy categories and its role as sample retrieval data",
+      "notes_sections": [
+        "10.7"
+      ],
+      "project": "02-evidencedesk",
+      "status": "Course-domain extension",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-062",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Agent streaming",
+      "concept": "updates for progress, messages for model chunks, and custom tool events",
+      "notes_sections": [
+        "11.1"
+      ],
+      "project": "07-foundation-studio",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-063",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Agent streaming",
+      "concept": "Trace model proposal, tool start/result, and final answer",
+      "notes_sections": [
+        "11.2"
+      ],
+      "project": "07-foundation-studio",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-064",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Agent streaming",
+      "concept": "Custom progress reporting with a stream writer",
+      "notes_sections": [
+        "11.1",
+        "11.2"
+      ],
+      "project": "07-foundation-studio",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/labs.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-065",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Agent streaming",
+      "concept": "Separate token display from approval and actual tool execution",
+      "notes_sections": [
+        "11.3"
+      ],
+      "project": "07-foundation-studio",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-066",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Gmail, OAuth, and human review",
+      "concept": "Cloud project, enabled Gmail API, consent screen, desktop OAuth client, and scopes",
+      "notes_sections": [
+        "12.1"
+      ],
+      "project": "03-reviewops",
+      "status": "External integration exercise",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-067",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Gmail, OAuth, and human review",
+      "concept": "User consent, access token, refresh token, and private local credential storage",
+      "notes_sections": [
+        "12.1"
+      ],
+      "project": "03-reviewops",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-068",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Gmail, OAuth, and human review",
+      "concept": "Gmail toolkit and a query/response email workflow",
+      "notes_sections": [
+        "12.1",
+        "12.2"
+      ],
+      "project": "03-reviewops",
+      "status": "External integration exercise",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-069",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Gmail, OAuth, and human review",
+      "concept": "Pause before sending or other sensitive tool execution",
+      "notes_sections": [
+        "12.2",
+        "12.3"
+      ],
+      "project": "03-reviewops",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-070",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Gmail, OAuth, and human review",
+      "concept": "Approval/edit/reject decisions and allowed_decisions",
+      "notes_sections": [
+        "12.3",
+        "12.4"
+      ],
+      "project": "03-reviewops",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-071",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Gmail, OAuth, and human review",
+      "concept": "Resume with Command on the same saved thread; validate edited arguments",
+      "notes_sections": [
+        "12.4",
+        "12.5"
+      ],
+      "project": "03-reviewops",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-072",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Gmail, OAuth, and human review",
+      "concept": "Custom model logging plus HITL on a real agent in the offline scripted-model demo",
+      "notes_sections": [
+        "12.6"
+      ],
+      "project": "03-reviewops",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/foundations.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-073",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "MCP protocol, clients, server tools, and Git workflow",
+      "concept": "Host, client, server, reusable capabilities, and discovery before execution",
+      "notes_sections": [
+        "13.1",
+        "13.2"
+      ],
+      "project": "05-protocolbridge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-074",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "MCP protocol, clients, server tools, and Git workflow",
+      "concept": "Client session initialization, list_tools, call_tool, and structured tool responses",
+      "notes_sections": [
+        "13.2"
+      ],
+      "project": "05-protocolbridge",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/protocol.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-075",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "MCP protocol, clients, server tools, and Git workflow",
+      "concept": "FastMCP function registration and a minimal server",
+      "notes_sections": [
+        "13.3"
+      ],
+      "project": "05-protocolbridge",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/protocol.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-076",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "MCP protocol, clients, server tools, and Git workflow",
+      "concept": "Filesystem and database tools: listing, creation, schema inspection, and queries",
+      "notes_sections": [
+        "13.3",
+        "13.6"
+      ],
+      "project": "05-protocolbridge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-077",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "MCP protocol, clients, server tools, and Git workflow",
+      "concept": "Stdio process lifetime versus legacy SSE versus Streamable HTTP",
+      "notes_sections": [
+        "13.4"
+      ],
+      "project": "05-protocolbridge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-078",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "MCP protocol, clients, server tools, and Git workflow",
+      "concept": "MultiServerMCPClient, async tool loading, and adapter conversion for an agent",
+      "notes_sections": [
+        "13.5"
+      ],
+      "project": "05-protocolbridge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-079",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "MCP protocol, clients, server tools, and Git workflow",
+      "concept": "Filesystem roots and read-only SQL enforced in code/permissions",
+      "notes_sections": [
+        "13.6"
+      ],
+      "project": "05-protocolbridge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-080",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "MCP protocol, clients, server tools, and Git workflow",
+      "concept": "Local Git subprocess operations versus hosted GitHub repository/PR operations",
+      "notes_sections": [
+        "13.7",
+        "27.2"
+      ],
+      "project": "05-protocolbridge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-081",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "MCP protocol, clients, server tools, and Git workflow",
+      "concept": "Node/server launch, credentials, branch/edit/add/commit/push, and PR workflow",
+      "notes_sections": [
+        "13.7"
+      ],
+      "project": "05-protocolbridge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-082",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "MCP protocol, clients, server tools, and Git workflow",
+      "concept": "Noninteractive subprocess execution, explicit working directories, and bounded access",
+      "notes_sections": [
+        "13.7"
+      ],
+      "project": "05-protocolbridge",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/protocol.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-083",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "MCP protocol, clients, server tools, and Git workflow",
+      "concept": "Incomplete middleware syntax and undefined client call in original source fragments",
+      "notes_sections": [
+        "13.8"
+      ],
+      "project": "05-protocolbridge",
+      "status": "Course-domain extension",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-084",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "MCP protocol, clients, server tools, and Git workflow",
+      "concept": "Resources, resource templates, tool calls, and prompt capabilities",
+      "notes_sections": [
+        "13.9"
+      ],
+      "project": "05-protocolbridge",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/protocol.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-085",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "MCP protocol, clients, server tools, and Git workflow",
+      "concept": "MCP CLI installation, desktop registration, interpreter paths, and transport matching",
+      "notes_sections": [
+        "13.10"
+      ],
+      "project": "05-protocolbridge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-086",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangGraph fundamentals and message state",
+      "concept": "StateGraph, typed state, nodes returning partial updates, START, END, and compile",
+      "notes_sections": [
+        "14.1",
+        "14.2"
+      ],
+      "project": "04-researchswarm",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-087",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangGraph fundamentals and message state",
+      "concept": "Reducers versus replacement and concurrent writes to shared keys",
+      "notes_sections": [
+        "14.3"
+      ],
+      "project": "04-researchswarm",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-088",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangGraph fundamentals and message state",
+      "concept": "Annotated state and operator.add aggregation",
+      "notes_sections": [
+        "14.3",
+        "16.1"
+      ],
+      "project": "04-researchswarm",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-089",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangGraph fundamentals and message state",
+      "concept": "MessagesState/add_messages, message IDs, replacement, and RemoveMessage",
+      "notes_sections": [
+        "14.4"
+      ],
+      "project": "04-researchswarm",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/labs.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-090",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangGraph fundamentals and message state",
+      "concept": "Input schema, output schema, and private node channels",
+      "notes_sections": [
+        "14.5",
+        "14.8"
+      ],
+      "project": "04-researchswarm",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-091",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangGraph fundamentals and message state",
+      "concept": "Rebuild a model/tools loop with bind_tools, ToolNode, and conditional routing",
+      "notes_sections": [
+        "14.6"
+      ],
+      "project": "04-researchswarm",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/labs.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-092",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangGraph fundamentals and message state",
+      "concept": "Stream updates versus values and inspect a state snapshot",
+      "notes_sections": [
+        "14.7",
+        "15.1"
+      ],
+      "project": "04-researchswarm",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/labs.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-093",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangGraph fundamentals and message state",
+      "concept": "Mermaid graph output, optional PNG renderer, and xray subgraph expansion",
+      "notes_sections": [
+        "14.7"
+      ],
+      "project": "04-researchswarm",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-094",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangGraph fundamentals and message state",
+      "concept": "Public output shape does not establish a security boundary for internal traces",
+      "notes_sections": [
+        "14.8"
+      ],
+      "project": "04-researchswarm",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-095",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangGraph summaries, checkpoints, and interrupts",
+      "concept": "Checkpoint snapshot, values, next tasks, and thread continuation",
+      "notes_sections": [
+        "15.1"
+      ],
+      "project": "03-reviewops",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-096",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangGraph summaries, checkpoints, and interrupts",
+      "concept": "Summary state, conditional summarize node, retaining recent messages, and removal",
+      "notes_sections": [
+        "15.2"
+      ],
+      "project": "03-reviewops",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-097",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangGraph summaries, checkpoints, and interrupts",
+      "concept": "interrupt payload, pending execution, and Command(resume=...)",
+      "notes_sections": [
+        "15.3"
+      ],
+      "project": "03-reviewops",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/review.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-098",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangGraph summaries, checkpoints, and interrupts",
+      "concept": "Replay from the node beginning and side effects before an interrupt",
+      "notes_sections": [
+        "15.4"
+      ],
+      "project": "03-reviewops",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/review.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-099",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangGraph summaries, checkpoints, and interrupts",
+      "concept": "Avoid broad try/except swallowing interrupts",
+      "notes_sections": [
+        "15.4"
+      ],
+      "project": "03-reviewops",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/review.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-100",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangGraph summaries, checkpoints, and interrupts",
+      "concept": "Approve/reject routing, edit a draft, and request additional information",
+      "notes_sections": [
+        "15.5"
+      ],
+      "project": "03-reviewops",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-101",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangGraph summaries, checkpoints, and interrupts",
+      "concept": "Two sequential form questions and stable interrupt order",
+      "notes_sections": [
+        "15.6"
+      ],
+      "project": "03-reviewops",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/labs.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-102",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangGraph summaries, checkpoints, and interrupts",
+      "concept": "JSON-serializable payloads, typed resume values, and input validation",
+      "notes_sections": [
+        "15.6"
+      ],
+      "project": "03-reviewops",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-103",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Parallel graphs, dynamic Send, and fraud demonstrations",
+      "concept": "Independent fan-out branches and a reducer for branch results",
+      "notes_sections": [
+        "16.1"
+      ],
+      "project": "04-researchswarm",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/research.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-104",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Parallel graphs, dynamic Send, and fraud demonstrations",
+      "concept": "Web/wiki research branches and a synthesis step",
+      "notes_sections": [
+        "16.1",
+        "16.2"
+      ],
+      "project": "04-researchswarm",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-105",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Parallel graphs, dynamic Send, and fraud demonstrations",
+      "concept": "Explicit fan-in join and dependencies before aggregation",
+      "notes_sections": [
+        "16.2"
+      ],
+      "project": "04-researchswarm",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-106",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Parallel graphs, dynamic Send, and fraud demonstrations",
+      "concept": "Send creates data-dependent workers with per-worker input",
+      "notes_sections": [
+        "16.3"
+      ],
+      "project": "04-researchswarm",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/research.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-107",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Parallel graphs, dynamic Send, and fraud demonstrations",
+      "concept": "Generate topics, map joke generation, then choose a best joke through typed output",
+      "notes_sections": [
+        "16.3"
+      ],
+      "project": "04-researchswarm",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-108",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Parallel graphs, dynamic Send, and fraud demonstrations",
+      "concept": "SQL-backed frequency, value, reason, and timing fraud checks",
+      "notes_sections": [
+        "16.4"
+      ],
+      "project": "04-researchswarm",
+      "status": "Course-domain extension",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-109",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Parallel graphs, dynamic Send, and fraud demonstrations",
+      "concept": "Keep the three-check notebook and four-check handout variants distinct",
+      "notes_sections": [
+        "16.4"
+      ],
+      "project": "04-researchswarm",
+      "status": "Course-domain extension",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-110",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Parallel graphs, dynamic Send, and fraud demonstrations",
+      "concept": "Tagged branch results, bounded scores, weighted aggregation, and risk thresholds",
+      "notes_sections": [
+        "16.5"
+      ],
+      "project": "04-researchswarm",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-111",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Supervisors, specialists, and nested subgraphs",
+      "concept": "Supervisor structured routing to specialized workers and FINISH",
+      "notes_sections": [
+        "17.1"
+      ],
+      "project": "01-insightforge",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/insight.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-112",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Supervisors, specialists, and nested subgraphs",
+      "concept": "Agent-node factories, worker results, and conditional return to the supervisor",
+      "notes_sections": [
+        "17.1"
+      ],
+      "project": "01-insightforge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-113",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Supervisors, specialists, and nested subgraphs",
+      "concept": "Handoff limits and termination rules",
+      "notes_sections": [
+        "17.2"
+      ],
+      "project": "01-insightforge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-114",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Supervisors, specialists, and nested subgraphs",
+      "concept": "Parent and child state contracts and explicit input/output transformation",
+      "notes_sections": [
+        "17.3"
+      ],
+      "project": "01-insightforge",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/research.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-115",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Supervisors, specialists, and nested subgraphs",
+      "concept": "Fraud child workflow inside a parent order/return workflow",
+      "notes_sections": [
+        "17.3"
+      ],
+      "project": "01-insightforge",
+      "status": "Course-domain extension",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-116",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Supervisors, specialists, and nested subgraphs",
+      "concept": "Command state updates and navigation versus ordinary edges",
+      "notes_sections": [
+        "17.4"
+      ],
+      "project": "01-insightforge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-117",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "Supervisors, specialists, and nested subgraphs",
+      "concept": "Test a specialist/subgraph boundary before the full team",
+      "notes_sections": [
+        "17.5"
+      ],
+      "project": "01-insightforge",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/research.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-118",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangChain support capstone: data, tools, approval, and UI",
+      "concept": "Single main support agent and customer/admin journeys",
+      "notes_sections": [
+        "18.1"
+      ],
+      "project": "03-reviewops",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-119",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangChain support capstone: data, tools, approval, and UI",
+      "concept": "Package/module dependency order and incremental construction",
+      "notes_sections": [
+        "18.2",
+        "18.10"
+      ],
+      "project": "03-reviewops",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-120",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangChain support capstone: data, tools, approval, and UI",
+      "concept": "Business tables, keys/joins, SQL seeds, and database initialization",
+      "notes_sections": [
+        "18.3"
+      ],
+      "project": "03-reviewops",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-121",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangChain support capstone: data, tools, approval, and UI",
+      "concept": "Login, trusted user identity, conversation ID, and tool runtime context",
+      "notes_sections": [
+        "18.4"
+      ],
+      "project": "03-reviewops",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/insight.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-122",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangChain support capstone: data, tools, approval, and UI",
+      "concept": "Policy chunks, persistent vector store, source metadata, and policy versions",
+      "notes_sections": [
+        "18.5"
+      ],
+      "project": "03-reviewops",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-123",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangChain support capstone: data, tools, approval, and UI",
+      "concept": "Cancellation eligibility, approval, database mutation, and notification trace",
+      "notes_sections": [
+        "18.6"
+      ],
+      "project": "03-reviewops",
+      "status": "Course-domain extension",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-124",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangChain support capstone: data, tools, approval, and UI",
+      "concept": "Return/refund eligibility and the difference between database records and payment delivery",
+      "notes_sections": [
+        "18.7"
+      ],
+      "project": "03-reviewops",
+      "status": "Course-domain extension",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-125",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangChain support capstone: data, tools, approval, and UI",
+      "concept": "Pending action rows, persisted checkpoints, admin queue, and resume identity",
+      "notes_sections": [
+        "18.8"
+      ],
+      "project": "03-reviewops",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/review.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-126",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangChain support capstone: data, tools, approval, and UI",
+      "concept": "Business data, UI conversation data, checkpoints, and Chroma schemas have different roles",
+      "notes_sections": [
+        "18.3",
+        "18.8"
+      ],
+      "project": "03-reviewops",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/storage.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-127",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangChain support capstone: data, tools, approval, and UI",
+      "concept": "SQL toolkit limitations, simulated email claims, and stronger authorization/idempotency",
+      "notes_sections": [
+        "18.9"
+      ],
+      "project": "03-reviewops",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-128",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangChain support capstone: data, tools, approval, and UI",
+      "concept": "README/dependency setup, logging middleware, Gmail options, and customer/admin practice",
+      "notes_sections": [
+        "18.2",
+        "18.9",
+        "18.10"
+      ],
+      "project": "03-reviewops",
+      "status": "External integration exercise",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-129",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangChain support capstone: data, tools, approval, and UI",
+      "concept": "Empty package markers and scaffold entry points add packaging context, not new agent behavior",
+      "notes_sections": [
+        "2.5",
+        "18.2"
+      ],
+      "project": "03-reviewops",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-130",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangGraph support capstone: nested returns and fraud",
+      "concept": "Supervisor, order, inventory, policy agents, and reusable notification utility",
+      "notes_sections": [
+        "19.1"
+      ],
+      "project": "04-researchswarm",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-131",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangGraph support capstone: nested returns and fraud",
+      "concept": "Specification versus implementation, contradictory seed counts, and policy differences",
+      "notes_sections": [
+        "19.2"
+      ],
+      "project": "04-researchswarm",
+      "status": "Course-domain extension",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-132",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangGraph support capstone: nested returns and fraud",
+      "concept": "Main state, worker routing, message accumulation, and completion",
+      "notes_sections": [
+        "19.3"
+      ],
+      "project": "04-researchswarm",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/insight.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-133",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangGraph support capstone: nested returns and fraud",
+      "concept": "Direct cancellation versus the previous capstone's approval-gated cancellation",
+      "notes_sections": [
+        "19.4"
+      ],
+      "project": "04-researchswarm",
+      "status": "Course-domain extension",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-134",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangGraph support capstone: nested returns and fraud",
+      "concept": "Return validation, pending record, human gate, approved/rejected finalization",
+      "notes_sections": [
+        "19.5"
+      ],
+      "project": "04-researchswarm",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-135",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangGraph support capstone: nested returns and fraud",
+      "concept": "Nested Send fraud checks with 35/35/15/15 weights and explanations",
+      "notes_sections": [
+        "19.6"
+      ],
+      "project": "04-researchswarm",
+      "status": "Course-domain extension",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-136",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangGraph support capstone: nested returns and fraud",
+      "concept": "Child workflow as a tool versus child compiled graph as a node",
+      "notes_sections": [
+        "19.7"
+      ],
+      "project": "04-researchswarm",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-137",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangGraph support capstone: nested returns and fraud",
+      "concept": "SQLite business storage versus PostgreSQL checkpoints and dashboard resume",
+      "notes_sections": [
+        "19.8"
+      ],
+      "project": "04-researchswarm",
+      "status": "External integration exercise",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-138",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangGraph support capstone: nested returns and fraud",
+      "concept": "Customer chat, admin queue, fraud score display, and test scenarios",
+      "notes_sections": [
+        "19.8",
+        "19.9"
+      ],
+      "project": "04-researchswarm",
+      "status": "Course-domain extension",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-139",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "LangGraph support capstone: nested returns and fraud",
+      "concept": "Return/shipping/FAQ documents are distinct course policies, not universal business rules",
+      "notes_sections": [
+        "19.2",
+        "19.4"
+      ],
+      "project": "04-researchswarm",
+      "status": "Course-domain extension",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-140",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "ADK first agent, Runner, schemas, and direct Gemini SDK",
+      "concept": "ADK package scaffold, root_agent export, model-backed Agent, and function tools",
+      "notes_sections": [
+        "20.1",
+        "20.2"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/adk_project.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-141",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "ADK first agent, Runner, schemas, and direct Gemini SDK",
+      "concept": "Runner, SessionService, app/user/session identity, and types.Content",
+      "notes_sections": [
+        "20.3"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/adk_project.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-142",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "ADK first agent, Runner, schemas, and direct Gemini SDK",
+      "concept": "Async event iteration, final response, function calls, and function responses",
+      "notes_sections": [
+        "20.4"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/adk_project.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-143",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "ADK first agent, Runner, schemas, and direct Gemini SDK",
+      "concept": "CLI run, web UI, API server, and SSE execution",
+      "notes_sections": [
+        "20.5"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-144",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "ADK first agent, Runner, schemas, and direct Gemini SDK",
+      "concept": "Input/output schemas, output_key, include_contents, and LiteLLM model adapters",
+      "notes_sections": [
+        "20.6"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "External integration exercise",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-145",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "ADK first agent, Runner, schemas, and direct Gemini SDK",
+      "concept": "Direct Gemini SDK request-response, streaming, and multi-turn chat",
+      "notes_sections": [
+        "20.7"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-146",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "ADK first agent, Runner, schemas, and direct Gemini SDK",
+      "concept": "Legacy google-generativeai examples versus current google-genai client syntax",
+      "notes_sections": [
+        "20.7"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-147",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "ADK state, scopes, events, and guardrail callbacks",
+      "concept": "ToolContext state and remembered translation preferences",
+      "notes_sections": [
+        "21.1"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-148",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "ADK state, scopes, events, and guardrail callbacks",
+      "concept": "Session, user:, app:, and invocation-only temp: state scopes",
+      "notes_sections": [
+        "21.2"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-149",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "ADK state, scopes, events, and guardrail callbacks",
+      "concept": "Instruction placeholders, optional missing values, and output_key data flow",
+      "notes_sections": [
+        "21.3"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/adk_project.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-150",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "ADK state, scopes, events, and guardrail callbacks",
+      "concept": "EventActions/state_delta, Runner processing, and session persistence",
+      "notes_sections": [
+        "21.4"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/adk_project.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-151",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "ADK state, scopes, events, and guardrail callbacks",
+      "concept": "before_model_callback returning a response versus allowing the request",
+      "notes_sections": [
+        "21.5"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-152",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "ADK state, scopes, events, and guardrail callbacks",
+      "concept": "Banking balance/history/transfer tools, intent screening, and audit state",
+      "notes_sections": [
+        "21.6"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Course-domain extension",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-153",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "ADK state, scopes, events, and guardrail callbacks",
+      "concept": "Validate transactions in the tool; keywords cannot guarantee safe money movement",
+      "notes_sections": [
+        "21.6"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-154",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "ADK delegation and workflow design patterns",
+      "concept": "Coordinator delegation to todo/reminder/motivation specialists",
+      "notes_sections": [
+        "22.1"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-155",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "ADK delegation and workflow design patterns",
+      "concept": "Global demonstration state versus isolated session/user state",
+      "notes_sections": [
+        "22.1"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-156",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "ADK delegation and workflow design patterns",
+      "concept": "Agent transfer versus AgentTool returning a result to its caller",
+      "notes_sections": [
+        "22.2"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-157",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "ADK delegation and workflow design patterns",
+      "concept": "SequentialAgent sales-data generation, analysis, and final report through output keys",
+      "notes_sections": [
+        "22.3"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-158",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "ADK delegation and workflow design patterns",
+      "concept": "LoopAgent response generation, quality critique, revision, and attempt limit",
+      "notes_sections": [
+        "22.4"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/adk_project.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-159",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "ADK delegation and workflow design patterns",
+      "concept": "escalate termination, accepted output, and exhausted-loop fallback",
+      "notes_sections": [
+        "22.5"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-160",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "ADK delegation and workflow design patterns",
+      "concept": "ParallelAgent news/financial/sentiment research with distinct output keys and synthesis",
+      "notes_sections": [
+        "22.6"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/adk_project.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-161",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "ADK delegation and workflow design patterns",
+      "concept": "Dispatcher, hierarchy, review/critique, and terminal-input human review",
+      "notes_sections": [
+        "22.7",
+        "22.8"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-162",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "ADK delegation and workflow design patterns",
+      "concept": "BaseAgent _run_async_impl asynchronous generator for deterministic work",
+      "notes_sections": [
+        "22.9"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/adk_project.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-163",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "ADK delegation and workflow design patterns",
+      "concept": "Iteration counter event deltas and simulated post-escalation ticket/email helpers",
+      "notes_sections": [
+        "22.9"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/adk_project.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-164",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "ADK YAML configuration and MCP tools",
+      "concept": "Declarative YAML agent model, instructions, imported tools, and specialist references",
+      "notes_sections": [
+        "23.1"
+      ],
+      "project": "05-protocolbridge",
+      "status": "External integration exercise",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-165",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "ADK YAML configuration and MCP tools",
+      "concept": "Prime checker deterministic function and Python module import path",
+      "notes_sections": [
+        "23.2"
+      ],
+      "project": "05-protocolbridge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-166",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "ADK YAML configuration and MCP tools",
+      "concept": "MCPToolset transport configuration and tool name filtering",
+      "notes_sections": [
+        "23.3"
+      ],
+      "project": "05-protocolbridge",
+      "status": "External integration exercise",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-167",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "ADK YAML configuration and MCP tools",
+      "concept": "Async construction, process/client lifetime, and cleanup on completion",
+      "notes_sections": [
+        "23.3"
+      ],
+      "project": "05-protocolbridge",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/protocol.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-168",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "TripWise: project setup and domain boundaries",
+      "concept": "Root coordinator, four-stage planning, policy specialist, and expense pipeline",
+      "notes_sections": [
+        "24.1"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Course-domain extension",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-169",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "TripWise: project setup and domain boundaries",
+      "concept": "Configuration, module roles, README setup, .env.example, and initialization",
+      "notes_sections": [
+        "24.2"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-170",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "TripWise: project setup and domain boundaries",
+      "concept": "Employee/trip/approval/booking/expense/notification schemas and durable business facts",
+      "notes_sections": [
+        "24.3"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Course-domain extension",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-171",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "TripWise: project setup and domain boundaries",
+      "concept": "In-memory session/artifact lifetime versus persistent SQLite",
+      "notes_sections": [
+        "24.3"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-172",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "TripWise: project setup and domain boundaries",
+      "concept": "Requirements collection, Pydantic date constraints, and actually enforcing declared schemas",
+      "notes_sections": [
+        "24.4"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-173",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "TripWise: project setup and domain boundaries",
+      "concept": "Parallel flight/hotel/transport/visa research and distinct result keys",
+      "notes_sections": [
+        "24.5"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-174",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "TripWise: project setup and domain boundaries",
+      "concept": "Mock booking data, unknown-city fallback, and live-provider evidence",
+      "notes_sections": [
+        "24.5"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-175",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "TripWise: project setup and domain boundaries",
+      "concept": "Itinerary quality loop, threshold, bounded iterations, and counter scope",
+      "notes_sections": [
+        "24.6"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-176",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "TripWise: project setup and domain boundaries",
+      "concept": "Budget comparison, pending manager review, and later status reads",
+      "notes_sections": [
+        "24.7"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-177",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "TripWise: project setup and domain boundaries",
+      "concept": "Manager authorization, stale decisions, and annual-versus-per-trip budget meaning",
+      "notes_sections": [
+        "24.7"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-178",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "TripWise: project setup and domain boundaries",
+      "concept": "Artifact save/load, name/version, and mismatched current_trip_id keys",
+      "notes_sections": [
+        "24.8"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-179",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "TripWise: project setup and domain boundaries",
+      "concept": "Default direct policy tools versus optional MCP factory",
+      "notes_sections": [
+        "24.9"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-180",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "TripWise: project setup and domain boundaries",
+      "concept": "Travel, per diem, approved vendors, expenses, and restricted-destination policy content",
+      "notes_sections": [
+        "24.9"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Course-domain extension",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-181",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "TripWise: project setup and domain boundaries",
+      "concept": "Conflicting expense deadlines/category names and canonical business rules",
+      "notes_sections": [
+        "24.9"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Course-domain extension",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-182",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "TripWise: project setup and domain boundaries",
+      "concept": "Expense collection, validation, arithmetic, report/item insertion, and artifact generation",
+      "notes_sections": [
+        "24.10"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Course-domain extension",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-183",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "TripWise: project setup and domain boundaries",
+      "concept": "Simulated notification record versus actual delivery/reimbursement",
+      "notes_sections": [
+        "24.10"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-184",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "TripWise: project setup and domain boundaries",
+      "concept": "A2A service adapters and optional flight/hotel/notification endpoints",
+      "notes_sections": [
+        "24.11"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-185",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "TripWise: project setup and domain boundaries",
+      "concept": "MCP capability calls versus remote-agent tasks; explicit remote inputs",
+      "notes_sections": [
+        "24.11"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-186",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "TripWise: project setup and domain boundaries",
+      "concept": "Streamlit employee/manager flows, event logging, and shared local Runner",
+      "notes_sections": [
+        "24.12"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-187",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "TripWise: project setup and domain boundaries",
+      "concept": "Async runner lifecycle, asyncio.run boundary, and seven source scenarios",
+      "notes_sections": [
+        "24.12"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-188",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "TripWise: project setup and domain boundaries",
+      "concept": "Travel Admin Panel requirement is absent from supplied implementation",
+      "notes_sections": [
+        "24.13"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Course-domain extension",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-189",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "TripWise: project setup and domain boundaries",
+      "concept": "Declared schemas, optional factories, and services must be wired to affect execution",
+      "notes_sections": [
+        "24.13"
+      ],
+      "project": "06-tripwise-adk",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-190",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "FastAPI material in the Word anthology",
+      "concept": "HTTP service boundary, client/server roles, app, and Uvicorn",
+      "notes_sections": [
+        "25.1",
+        "25.2"
+      ],
+      "project": "01-insightforge",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/api.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-191",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "FastAPI material in the Word anthology",
+      "concept": "GET/POST routes, path parameters, query parameters, and validation",
+      "notes_sections": [
+        "25.2"
+      ],
+      "project": "01-insightforge",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/api.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-192",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "FastAPI material in the Word anthology",
+      "concept": "Pydantic request/response models and output filtering",
+      "notes_sections": [
+        "25.3"
+      ],
+      "project": "01-insightforge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-193",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "FastAPI material in the Word anthology",
+      "concept": "Application credentials separated from provider secrets",
+      "notes_sections": [
+        "25.4"
+      ],
+      "project": "01-insightforge",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/api.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-194",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "FastAPI material in the Word anthology",
+      "concept": "Depends injection for identity, configuration, and services",
+      "notes_sections": [
+        "25.5"
+      ],
+      "project": "01-insightforge",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/api.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-195",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "FastAPI material in the Word anthology",
+      "concept": "Async model/chain invocation and blocking-work boundaries",
+      "notes_sections": [
+        "25.6"
+      ],
+      "project": "01-insightforge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-196",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "FastAPI material in the Word anthology",
+      "concept": "StreamingResponse, SSE event framing, and incremental client output",
+      "notes_sections": [
+        "25.7"
+      ],
+      "project": "01-insightforge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-197",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "FastAPI material in the Word anthology",
+      "concept": "BackgroundTasks versus a durable external job queue",
+      "notes_sections": [
+        "25.8"
+      ],
+      "project": "01-insightforge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-198",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "FastAPI material in the Word anthology",
+      "concept": "CORS, HTTPException, status codes, and error bodies",
+      "notes_sections": [
+        "25.9"
+      ],
+      "project": "01-insightforge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-199",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "FastAPI material in the Word anthology",
+      "concept": "Lifespan setup/cleanup for model, database, and runtime clients",
+      "notes_sections": [
+        "25.10"
+      ],
+      "project": "01-insightforge",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/api.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-200",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "FastAPI material in the Word anthology",
+      "concept": "TestClient, lifespan-aware tests, and unauthorized request checks",
+      "notes_sections": [
+        "25.11"
+      ],
+      "project": "01-insightforge",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/api.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-201",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "FastAPI material in the Word anthology",
+      "concept": "Dependency packaging, Docker, worker state, reverse proxy, and production boundaries",
+      "notes_sections": [
+        "25.12",
+        "33.1"
+      ],
+      "project": "01-insightforge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "original-202",
+      "source_audit": "CONCEPT_COVERAGE.json",
+      "group": "FastAPI material in the Word anthology",
+      "concept": "Typed environment-backed settings dependency and cached initialization",
+      "notes_sections": [
+        "25.13"
+      ],
+      "project": "01-insightforge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-203",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Foundations and model boundaries",
+      "concept": "Training, inference, token generation and the model/API/application distinction",
+      "notes_sections": [
+        "1.3",
+        "1.4"
+      ],
+      "project": "07-foundation-studio",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-204",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Foundations and model boundaries",
+      "concept": "Managed versus self-hosted models, open weights and private networking limits",
+      "notes_sections": [
+        "2.6"
+      ],
+      "project": "07-foundation-studio",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-205",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Foundations and model boundaries",
+      "concept": "Notebook kernel/virtual environment identity, dependency reproducibility and debugging",
+      "notes_sections": [
+        "2.5",
+        "2.7"
+      ],
+      "project": "07-foundation-studio",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/config.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-206",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Foundations and model boundaries",
+      "concept": "Temperature, top-k and top-p with a normalized probability example",
+      "notes_sections": [
+        "3.7"
+      ],
+      "project": "07-foundation-studio",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/labs.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-207",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Foundations and model boundaries",
+      "concept": "Usage metadata, input/output costs and context-window limits",
+      "notes_sections": [
+        "3.8",
+        "31.9"
+      ],
+      "project": "07-foundation-studio",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-208",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Foundations and model boundaries",
+      "concept": "Resource caching versus session state; owned thread selection and rerun loops",
+      "notes_sections": [
+        "4.5",
+        "4.6"
+      ],
+      "project": "07-foundation-studio",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-209",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Prompts, runnables and structured results",
+      "concept": "Optional history placeholders, few-shot examples and prompt composition",
+      "notes_sections": [
+        "5.9"
+      ],
+      "project": "07-foundation-studio",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/labs.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-210",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Prompts, runnables and structured results",
+      "concept": "Sequential/parallel runnable contracts and passthrough assignment",
+      "notes_sections": [
+        "5.7",
+        "5.10"
+      ],
+      "project": "07-foundation-studio",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/labs.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-211",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Prompts, runnables and structured results",
+      "concept": "Runnable branching, input/output schema inspection and debug boundaries",
+      "notes_sections": [
+        "5.11"
+      ],
+      "project": "07-foundation-studio",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/labs.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-212",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Prompts, runnables and structured results",
+      "concept": "String/JSON/Pydantic parsing versus model-level and agent-level structured output",
+      "notes_sections": [
+        "5.4",
+        "5.6",
+        "6.4"
+      ],
+      "project": "07-foundation-studio",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-213",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Prompts, runnables and structured results",
+      "concept": "Optional fields, constrained values and structure versus factual support",
+      "notes_sections": [
+        "6.3",
+        "6.4",
+        "29.9"
+      ],
+      "project": "07-foundation-studio",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/foundations.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-214",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Tools, middleware and memory",
+      "concept": "Decorated tool objects, argument schemas, names and descriptions",
+      "notes_sections": [
+        "7.6",
+        "7.7"
+      ],
+      "project": "03-reviewops",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-215",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Tools, middleware and memory",
+      "concept": "Multiple tool proposals, observation IDs and dependent versus independent execution",
+      "notes_sections": [
+        "7.8"
+      ],
+      "project": "03-reviewops",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-216",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Tools, middleware and memory",
+      "concept": "SQL table/schema/query-check/query-execution roles and permission boundaries",
+      "notes_sections": [
+        "7.9",
+        "13.6"
+      ],
+      "project": "03-reviewops",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-217",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Tools, middleware and memory",
+      "concept": "Middleware nesting, immutable overrides and relevant-message routing",
+      "notes_sections": [
+        "8.9"
+      ],
+      "project": "03-reviewops",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-218",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Tools, middleware and memory",
+      "concept": "Tool retry attempts, capped backoff, jitter and failure observations",
+      "notes_sections": [
+        "8.10",
+        "30.10"
+      ],
+      "project": "03-reviewops",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-219",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Tools, middleware and memory",
+      "concept": "Shell execution policy, working directory, actual exit status and runtime access",
+      "notes_sections": [
+        "8.11"
+      ],
+      "project": "03-reviewops",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-220",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Tools, middleware and memory",
+      "concept": "Todo/planning and filesystem glob/grep tools versus execution evidence",
+      "notes_sections": [
+        "8.12"
+      ],
+      "project": "03-reviewops",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-221",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Tools, middleware and memory",
+      "concept": "Checkpoint scope versus long-term store scope and physical durability",
+      "notes_sections": [
+        "9.6"
+      ],
+      "project": "03-reviewops",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/storage.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-222",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Tools, middleware and memory",
+      "concept": "Namespace/key/JSON store operations and cross-user/tenant separation",
+      "notes_sections": [
+        "9.7",
+        "9.8"
+      ],
+      "project": "03-reviewops",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/storage.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-223",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Tools, middleware and memory",
+      "concept": "Trusted ToolRuntime context, dataclass/dictionary access and hidden runtime arguments",
+      "notes_sections": [
+        "9.8"
+      ],
+      "project": "03-reviewops",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/insight.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-224",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Tools, middleware and memory",
+      "concept": "RunnableWithMessageHistory sessions versus graph threads/checkpoints",
+      "notes_sections": [
+        "9.9"
+      ],
+      "project": "03-reviewops",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-225",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Tools, middleware and memory",
+      "concept": "Buffer/window/summary/hybrid strategies, token trimming and valid tool history",
+      "notes_sections": [
+        "9.4",
+        "9.5",
+        "9.10"
+      ],
+      "project": "03-reviewops",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-226",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Tools, middleware and memory",
+      "concept": "Human review through LangChain middleware, approval/rejection and actual effects",
+      "notes_sections": [
+        "12.3",
+        "12.4",
+        "12.6"
+      ],
+      "project": "03-reviewops",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/foundations.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-227",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Retrieval from basic indexing to advanced strategies",
+      "concept": "Retrieval versus fine-tuning versus authoritative factual tools",
+      "notes_sections": [
+        "10.8"
+      ],
+      "project": "02-evidencedesk",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-228",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Retrieval from basic indexing to advanced strategies",
+      "concept": "Embedding vector dimensions, cosine calculation and non-probabilistic scores",
+      "notes_sections": [
+        "10.3",
+        "10.9"
+      ],
+      "project": "02-evidencedesk",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/labs.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-229",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Retrieval from basic indexing to advanced strategies",
+      "concept": "Exact/approximate indexes, local/hosted embeddings, cache namespaces and persistence",
+      "notes_sections": [
+        "10.10"
+      ],
+      "project": "02-evidencedesk",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-230",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Retrieval from basic indexing to advanced strategies",
+      "concept": "Lazy loaders, PDF/page provenance, recursive/markdown/code splitting",
+      "notes_sections": [
+        "10.2",
+        "10.11"
+      ],
+      "project": "02-evidencedesk",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-231",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Retrieval from basic indexing to advanced strategies",
+      "concept": "Similarity/distance/threshold semantics and correct MMR relevance/diversity direction",
+      "notes_sections": [
+        "10.4",
+        "10.12"
+      ],
+      "project": "02-evidencedesk",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-232",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Retrieval from basic indexing to advanced strategies",
+      "concept": "Trusted metadata filters, no-answer behavior and backend filter translation",
+      "notes_sections": [
+        "10.12",
+        "10.17"
+      ],
+      "project": "02-evidencedesk",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/retrieval.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-233",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Retrieval from basic indexing to advanced strategies",
+      "concept": "Middleware retrieval versus an agent-selected retrieval tool",
+      "notes_sections": [
+        "10.5"
+      ],
+      "project": "02-evidencedesk",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-234",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Retrieval from basic indexing to advanced strategies",
+      "concept": "Multi-query expansion, bounded work and stable document deduplication",
+      "notes_sections": [
+        "10.13"
+      ],
+      "project": "02-evidencedesk",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/retrieval.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-235",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Retrieval from basic indexing to advanced strategies",
+      "concept": "Contextual compression, hybrid BM25/dense search and weighted rank fusion",
+      "notes_sections": [
+        "10.14"
+      ],
+      "project": "02-evidencedesk",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/retrieval.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-236",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Retrieval from basic indexing to advanced strategies",
+      "concept": "Child-vector hits, parent-document expansion and consistent parent-store persistence",
+      "notes_sections": [
+        "10.15"
+      ],
+      "project": "02-evidencedesk",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/retrieval.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-237",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Retrieval from basic indexing to advanced strategies",
+      "concept": "Conversational research assistant, standalone follow-up queries and one evidence set",
+      "notes_sections": [
+        "10.16"
+      ],
+      "project": "02-evidencedesk",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/retrieval.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-238",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Retrieval from basic indexing to advanced strategies",
+      "concept": "Self-query structured criteria combined with mandatory access filters",
+      "notes_sections": [
+        "10.17"
+      ],
+      "project": "02-evidencedesk",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/retrieval.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-239",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "MCP and graph execution",
+      "concept": "MCP discovery, resources, transport/session initialization and cleanup",
+      "notes_sections": [
+        "13.2",
+        "13.4",
+        "13.9",
+        "13.11"
+      ],
+      "project": "04-researchswarm",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/protocol.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-240",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "MCP and graph execution",
+      "concept": "State schemas, reducer deltas, message identities and superstep visibility",
+      "notes_sections": [
+        "14.3",
+        "14.4",
+        "14.9"
+      ],
+      "project": "04-researchswarm",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/labs.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-241",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "MCP and graph execution",
+      "concept": "Conditional edges and exact validated routing instead of prose matching",
+      "notes_sections": [
+        "14.10"
+      ],
+      "project": "04-researchswarm",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-242",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "MCP and graph execution",
+      "concept": "Snapshot values/next/config/metadata/parent/task/history inspection",
+      "notes_sections": [
+        "15.7"
+      ],
+      "project": "04-researchswarm",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/labs.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-243",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "MCP and graph execution",
+      "concept": "Replay versus a historical branch versus copying state into another thread",
+      "notes_sections": [
+        "15.8"
+      ],
+      "project": "04-researchswarm",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/labs.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-244",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "MCP and graph execution",
+      "concept": "Static breakpoints versus dynamic interrupt/resume, preserving review decisions",
+      "notes_sections": [
+        "15.9"
+      ],
+      "project": "04-researchswarm",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-245",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "MCP and graph execution",
+      "concept": "Generate/review/revise loops, bounded attempts and truthful exhaustion",
+      "notes_sections": [
+        "15.10"
+      ],
+      "project": "04-researchswarm",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/research.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-246",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "MCP and graph execution",
+      "concept": "Generated-code execution boundaries and alignment of task/tests/acceptance",
+      "notes_sections": [
+        "15.10",
+        "32.5"
+      ],
+      "project": "04-researchswarm",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-247",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "MCP and graph execution",
+      "concept": "Independent branches, explicit joins and dynamically dispatched Send tasks",
+      "notes_sections": [
+        "16.1",
+        "16.2",
+        "16.3"
+      ],
+      "project": "04-researchswarm",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/research.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-248",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "MCP and graph execution",
+      "concept": "Map/reduce dataflow versus actual concurrency and result provenance",
+      "notes_sections": [
+        "16.6"
+      ],
+      "project": "04-researchswarm",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/research.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-249",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Agent teams and project composition",
+      "concept": "Supervisor routing, final deliverable selection and bounded handoffs",
+      "notes_sections": [
+        "17.1",
+        "17.2",
+        "17.6"
+      ],
+      "project": "04-researchswarm",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-250",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Agent teams and project composition",
+      "concept": "Messages, structured shared state and blackboard communication",
+      "notes_sections": [
+        "17.6"
+      ],
+      "project": "04-researchswarm",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-251",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Agent teams and project composition",
+      "concept": "Local specialist handoffs, departments, nested supervisors and subgraph contracts",
+      "notes_sections": [
+        "17.3",
+        "17.4",
+        "17.7"
+      ],
+      "project": "04-researchswarm",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-252",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Agent teams and project composition",
+      "concept": "Multi-agent versus multi-model/multimodal; evaluate a simpler baseline",
+      "notes_sections": [
+        "17.7",
+        "17.8"
+      ],
+      "project": "04-researchswarm",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-253",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Agent teams and project composition",
+      "concept": "Research planning/search/analysis/writing/review with actual evidence rather than fixtures",
+      "notes_sections": [
+        "17.8"
+      ],
+      "project": "04-researchswarm",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-254",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Agent teams and project composition",
+      "concept": "Original support project progression and distinct policy/workflow variants",
+      "notes_sections": [
+        "18.1",
+        "19.1"
+      ],
+      "project": "04-researchswarm",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-255",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "ADK and remote A2A",
+      "concept": "Runner identity, event iteration, sessions and state scopes",
+      "notes_sections": [
+        "20.3",
+        "20.4",
+        "21.2",
+        "21.4"
+      ],
+      "project": "05-protocolbridge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-256",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "ADK and remote A2A",
+      "concept": "Model callbacks versus tool-operation validation and the banking-screening failure",
+      "notes_sections": [
+        "21.7"
+      ],
+      "project": "05-protocolbridge",
+      "status": "Course-domain extension",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-257",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "ADK and remote A2A",
+      "concept": "Sequential/parallel/loop workflows, deterministic counters and business escalation",
+      "notes_sections": [
+        "22.3",
+        "22.4",
+        "22.6",
+        "22.9",
+        "22.10"
+      ],
+      "project": "05-protocolbridge",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/adk_project.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-258",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "ADK and remote A2A",
+      "concept": "Declarative agents and MCP lifetime/filtering",
+      "notes_sections": [
+        "23.1",
+        "23.3"
+      ],
+      "project": "05-protocolbridge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-259",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "ADK and remote A2A",
+      "concept": "Agent service boundary, A2A versus MCP and protocol version compatibility",
+      "notes_sections": [
+        "23.4"
+      ],
+      "project": "05-protocolbridge",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/a2a_project.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-260",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "ADK and remote A2A",
+      "concept": "Agent cards, skills, modes, authentication metadata and discovery limits",
+      "notes_sections": [
+        "23.5",
+        "23.9"
+      ],
+      "project": "05-protocolbridge",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/a2a_project.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-261",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "ADK and remote A2A",
+      "concept": "Executor/handler/ASGI adapter and EventQueue versus durable job queues",
+      "notes_sections": [
+        "23.6"
+      ],
+      "project": "05-protocolbridge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-262",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "ADK and remote A2A",
+      "concept": "Message/context/task/thread identities and trusted principal mapping",
+      "notes_sections": [
+        "23.7"
+      ],
+      "project": "05-protocolbridge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-263",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "ADK and remote A2A",
+      "concept": "Task lifecycle, status/artifact events, cooperative cancellation and durability",
+      "notes_sections": [
+        "23.8"
+      ],
+      "project": "05-protocolbridge",
+      "status": "Course-domain extension",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-264",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "ADK and remote A2A",
+      "concept": "Client event types, secure registry lookup and transport failures",
+      "notes_sections": [
+        "23.9"
+      ],
+      "project": "05-protocolbridge",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/a2a_project.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-265",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "ADK and remote A2A",
+      "concept": "ADK to_a2a server adapter, RemoteA2aAgent client proxy and inventory consistency",
+      "notes_sections": [
+        "23.10"
+      ],
+      "project": "05-protocolbridge",
+      "status": "External integration exercise",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-266",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "API, tests and evaluation",
+      "concept": "Production request ordering, typed outcomes, lifecycle and blocking-call handling",
+      "notes_sections": [
+        "28.7",
+        "28.8",
+        "28.10"
+      ],
+      "project": "01-insightforge",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/api.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-267",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "API, tests and evaluation",
+      "concept": "Rate limits, token quotas, concurrency, readiness and protected operational endpoints",
+      "notes_sections": [
+        "28.11"
+      ],
+      "project": "01-insightforge",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/api.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-268",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "API, tests and evaluation",
+      "concept": "Scaffold settings/imports versus enforced identity, graph and memory behavior",
+      "notes_sections": [
+        "28.12"
+      ],
+      "project": "01-insightforge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-269",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "API, tests and evaluation",
+      "concept": "Unit/integration/live-provider/task/operational testing evidence",
+      "notes_sections": [
+        "29.8"
+      ],
+      "project": "01-insightforge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-270",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "API, tests and evaluation",
+      "concept": "Versioned datasets, named experiments, baselines and regression slices",
+      "notes_sections": [
+        "29.7",
+        "29.9"
+      ],
+      "project": "01-insightforge",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/evaluation.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-271",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "API, tests and evaluation",
+      "concept": "Judge calibration, bounded structured scores and evaluator edge cases",
+      "notes_sections": [
+        "29.5",
+        "29.9"
+      ],
+      "project": "01-insightforge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-272",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Reliable and measurable operation",
+      "concept": "Closed/open/half-open breaker, consecutive failures and bounded probes",
+      "notes_sections": [
+        "30.9"
+      ],
+      "project": "01-insightforge",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/reliability.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-273",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Reliable and measurable operation",
+      "concept": "Retry composition, deadlines, safe fallbacks and operation idempotency",
+      "notes_sections": [
+        "30.10"
+      ],
+      "project": "01-insightforge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-274",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Reliable and measurable operation",
+      "concept": "Nested traces, current setup, safe metadata and redaction before export",
+      "notes_sections": [
+        "31.7"
+      ],
+      "project": "01-insightforge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-275",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Reliable and measurable operation",
+      "concept": "Exact TTL versus semantic caches, scoped keys, invalidation and in-flight work",
+      "notes_sections": [
+        "31.8"
+      ],
+      "project": "01-insightforge",
+      "status": "Implementation example",
+      "example_or_exercise": "src/portfolio/reliability.py",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-276",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Reliable and measurable operation",
+      "concept": "Full-context token budgets, output reservation, usage reconciliation and model routing cost",
+      "notes_sections": [
+        "31.9"
+      ],
+      "project": "01-insightforge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-277",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Reliable and measurable operation",
+      "concept": "Regex/LLM guard false positives and negatives, PII boundaries and output-check limits",
+      "notes_sections": [
+        "32.8"
+      ],
+      "project": "01-insightforge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-278",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Deployment and the learning path",
+      "concept": "Managed Render deployment, PORT, secret injection and persistent state",
+      "notes_sections": [
+        "33.10"
+      ],
+      "project": "01-insightforge",
+      "status": "External integration exercise",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-279",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Deployment and the learning path",
+      "concept": "Compatible container runtime, image cache, non-root ownership and health semantics",
+      "notes_sections": [
+        "33.11"
+      ],
+      "project": "01-insightforge",
+      "status": "Implementation example",
+      "example_or_exercise": "Dockerfile",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-280",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Deployment and the learning path",
+      "concept": "CI-gated release verification and rollback",
+      "notes_sections": [
+        "33.8",
+        "33.9",
+        "33.10"
+      ],
+      "project": "01-insightforge",
+      "status": "Implementation example",
+      "example_or_exercise": "Dockerfile",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    },
+    {
+      "id": "supplemental-281",
+      "source_audit": "SUPPLEMENTAL_CONCEPT_COVERAGE.json",
+      "group": "Deployment and the learning path",
+      "concept": "One prerequisite order, canonical lab and independent completion evidence",
+      "notes_sections": [
+        "34.8",
+        "34.9",
+        "34.10"
+      ],
+      "project": "01-insightforge",
+      "status": "Guided practice / partial pattern",
+      "example_or_exercise": "docs/EXTENSION_LABS.md",
+      "completion_rule": "Explain this objective, run the linked example where implemented, and complete any remaining extension before claiming full feature coverage"
+    }
+  ]
+}
