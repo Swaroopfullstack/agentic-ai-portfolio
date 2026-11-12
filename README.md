@@ -63,7 +63,7 @@ RUN_MODE=live
 GOOGLE_API_KEY=your-key
 LLM_PROVIDER=google_genai
 LLM_MODEL=gemini-3.8-flash
-LLM_TEMPERATURE=1.0
+LLM_TEMPERATURE=
 LLM_TOP_P=
 LLM_TOP_K=
 LLM_MAX_TOKENS=1600
@@ -121,3 +121,7 @@ This is a production-oriented reference implementation with enforced controls: a
 Public fixtures retain their [provenance manifest](assets/public/PROVENANCE.json). NIST AI RMF **1.0 (2023)** is a versioned teaching corpus. Iris is CC BY 4.0 with repository attribution. The diabetes CSV comes from scikit-learn's bundled dataset. No endorsement or medical inference is claimed.
 
 Implementation references: [LangChain models](https://docs.langchain.com/oss/python/langchain/models), [Google integration](https://docs.langchain.com/oss/python/integrations/chat/google_generative_ai), [LangGraph](https://docs.langchain.com/oss/python/langgraph/overview), [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk), [ADK](https://google.github.io/adk-docs/), [A2A Python SDK](https://github.com/a2aproject/a2a-python), [scikit-learn](https://scikit-learn.org/stable/).
+
+## Open source license
+
+Original application code is available under the [MIT license](LICENSE). See [contributing](CONTRIBUTING.md) to run checks and submit improvements. Public data, dependencies and model weights retain their respective licenses and attribution.
